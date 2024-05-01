@@ -1,0 +1,28 @@
+/*================TAGS============*/
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    width: 10%;
+    margin: 0 ;
+    margin: 0 auto 0 auto;
+    
+}
+header{
+    color:#E2DFD0;
+
+}
+
+
+/*================CLASSES============*/
+.top-container{
+    background-color: #524C42;
+}
+.efeito{
+
+    text-decoration: underline chocolate;
+}
+
+
