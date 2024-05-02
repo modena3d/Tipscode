@@ -19,10 +19,33 @@ header{
 /*================CLASSES============*/
 .top-container{
     background-color: #524C42;
+    position: relative;
+    padding-top:100px ;
 }
 .efeito{
 
     text-decoration: underline chocolate;
+}
+
+.celebro-tech-cima{
+    
+    position: absolute;
+    right: 100px;
+    top: 50px;
+  
+
+}
+.celebro-tech-baixo{
+    
+    position: absolute;
+    left: 10%;
+    bottom: 2%;
+
+}
+
+.imgCentro{
+    width: 50%;
+    height: 50%;
 }
 
 
