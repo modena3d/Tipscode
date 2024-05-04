@@ -1,63 +1,66 @@
 /*================TAGS============*/
-body{
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color:#E2DFD0;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #e2dfd0;
 }
 
-h1{
-    color: rgb(0, 0, 0);
-    font-family: 'Sacramento', cursive;
-    margin: 0 ;
-    margin: 0 auto 0 auto;
-    
+h1 {
+  line-height: 2;
+  color: rgb(0, 0, 0);
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 0;
+  margin: 0 auto 0 auto;
 }
-h2, h3{
-    color: #524C42;
-    font-family: 'Montserrat', sans-serif;
-
-
+h2,
+h3 {
+  font-size: 2.5rem;
+  color: #524c42;
+  font-family: "Montserrat", sans-serif;
 }
-header{
-    color:#E2DFD0;
-
+header {
+  color: #e2dfd0;
 }
-p{
-    color: #524C42;
+p {
+  color: #2b2b2b;
+  font-size: 1.875rem;
 }
-
+h1,
+h2 {
+  color: #66bfbf;
+}
+h3,
+a {
+  color: #11999e;
+}
 
 /*================CLASSES============*/
-.top-container{
-    background-color: #524C42;
-    position: relative;
-    padding-top:100px ;
+.top-container {
+  background-color: #524c42;
+  position: relative;
+  padding-top: 100px;
 }
-.efeito{
-
-    text-decoration: underline chocolate;
-}
-
-.celebro-tech-cima{
-    
-    position: absolute;
-    right: 100px;
-    top: 50px;
-  
-
-}
-.celebro-tech-baixo{
-    
-    position: absolute;
-    left: 10%;
-    bottom: 2%;
-
+.efeito {
+  text-decoration: underline chocolate;
 }
 
-.imgCentro{
-    width: 50%;
-    height: 50%;
+.celebro-tech-cima {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+.celebro-tech-baixo {
+  position: absolute;
+  left: 10%;
+  bottom: 2%;
 }
 
-
+.imgCentro {
+  width: 50%;
+  height: 50%;
+}
+.skill-row {
+  display: inline-flex;
+}
