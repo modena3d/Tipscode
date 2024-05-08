@@ -4,10 +4,10 @@ body{
 }
 
 h1{
-    font-family: "Montserrat", sans-serif;
-    size: 3rem;
+    font-family: "Montserrat-Black", sans-serif;
+    size: 3.5rem;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 900;
 }
 #title{
     background-color: #051d35;
@@ -38,4 +38,49 @@ h1{
     font-size: 1.2rem;
     font-family: "Montserrat";
 
+}
+
+/* title-image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* //////////////FEATURES//////////////////// */
+#features{
+    text-align: center;
+}
+.features_descritions{
+    text-align: center;
+
+}
+
+/* ///////////////TESTT////////////////////// */
+
+.icon{
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    color: #ef8172
+}
+.icon:hover{
+    color: #ff4c68
+}
+
+#FeatPadding{
+    font-family: "Montserrat, serif";
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features_descritions{
+    font-size: 1.5rem;
+    color:darkgrey
+
+}
+/* ------------Testimonials Section--------- */
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: coral;
+    text-align: center;
 }
