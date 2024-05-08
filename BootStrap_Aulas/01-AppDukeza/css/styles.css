@@ -84,3 +84,12 @@ h1{
     background-color: coral;
     text-align: center;
 }
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: coral;
+    text-align: center;
+}
