@@ -119,14 +119,14 @@ body{
 
 /* ////////PRICING////// */
 #pricing{
-    padding: 200px;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    padding: 0 200px 0 200px;
+    margin-bottom: 10px;
     text-align: center;
     position: relative;
-    
 
-    
+
+
 }
 
 #cta{
@@ -134,10 +134,16 @@ body{
     background-color: #051d35;
     text-align: center;
     width: 100%;
+    font-family: "Montserrat Black";
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
 h3{
+    padding-bottom: 50px;
     color:  #fff;
+    font-size: 2.5rem;
 }
 
 
@@ -147,8 +153,31 @@ h3{
 #footer{
     position: relative;
     width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:rgb(194, 194, 194)
+}
+
+#btn1{
+    margin-right: 15px;
 
 }
+#btn2{
+    margin-left: 15px;
+}
+#iconsFooter{
+    /* border: 1px solid; */
+    margin: 0 400px;
+
+}
+.inconMargin{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
 
 
 /* /////////////////RESPONSIVE////////////////// */
@@ -170,8 +199,6 @@ h3{
     .container-fluid{
         padding-bottom: 0;
 
-        
-
     }
-    
+
 }
