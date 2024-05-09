@@ -93,3 +93,23 @@ h1{
     background-color: coral;
     text-align: center;
 }
+/* ////////////////CARDS///////////////// */
+.allCardsStyles{
+    margin: 50px 200px 100px 200px;
+}
+
+.onlyCards{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btnZoom{
+    width: 100%;
+    font-size: 150%;
+}
+
+/* ////////PRICING////// */
+#pricing{
+    margin-top: 100px;
+    text-align: center;
+}
