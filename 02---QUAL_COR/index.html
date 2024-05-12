@@ -13,17 +13,25 @@
         <h2>Cores</h2>
         <nav class="navbar">
             <ul class="nav">
-                <li><a class="nav-link" href="">Nomes</a></li>
-                <li><a class="nav-link" href="">Hex</a></li>
+                <li><a id="linkNomes" class="nav-link" href="">Nomes</a></li>
+                <li><a id="linkHex" class="nav-link" href="">Hex</a></li>
+                <li><a id="linkRgb" class="nav-link" href="">RGB</a></li>
+                <li><a id="linkMix" class="nav-link" href="">Mix</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="container">
+    <main id="main-color" >
         <section class="d-flex justify-content-center" style="height: 100vh;">
             <div class="m-auto">
-                <h2>Background Color: <span class="span-color">#red</span></h2>
-                <button id='btn' class="btn btn-danger">Mudar de cor</button>
+                <p class="format">Format: <span class="tipe">Mix</span></p>
+                <h2>Background Color: <span class="span-color">#none</span></h2>
+                <div class="btns">
+                    <button id='btnNomes' class="btn btn-danger">Nomes</button>
+                    <button id='btnExa' class="btn btn-danger">Exa</button>
+                    <button id='btnRGB' class="btn btn-danger">RGB</button>
+                    <button id='btnMix' class="btn btn-danger">Mix</button>
+                </div>
             </div>
         </section>
     </main>
