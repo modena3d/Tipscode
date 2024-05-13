@@ -3,6 +3,8 @@ const colorsExa=['#BC8F8F', '#4B0082', '#B22222', '#FFD700'];
 const colorsRGB=['rgba(19, 141, 117)', 'rgba(176,224,230)', 'rgba(128,0,0)', 'rgba(199,21,133)'];
 const colorsMix=['green', 'red', 'rgba(133, 122, 200)', '#f15025', 'goldenrod', '#B22222', 'rgba(176,224,230)', '#fff', 'rgba(199,21,133)','#FFD700', '#4B0082' ];
 
+const hexa = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F']
+
 //-------------------BUTTONS--------------------------//
 let btnNomes = document.getElementById('btnNomes')
 let btnHEX = document.getElementById('btnExa')
@@ -71,12 +73,19 @@ btnNomes.addEventListener('click', function(){
 /////////HEX
 btnHEX.addEventListener('click', function(){
     //console.log('clicou')
-    const randomNumber = Math.floor(Math.random() * colorsExa.length )
+    let hexColor = '#'
     const mainColor = document.querySelector('#main-color')
-    mainColor.style.backgroundColor = colorsExa[randomNumber]
     //Text
-    textColor.textContent = colorsExa[randomNumber]
+    for (let i = 0; i < 6; i++) {
+        hexColor += hexa[getRandomNumbers()]  
+    }
+    mainColor.style.backgroundColor = hexColor
+    textColor.textContent = hexColor
 })
+///funciont 
+function getRandomNumbers(){
+    return Math.floor(Math.random() * hexa.length)
+ }
 /////////RGB
 btnRGB.addEventListener('click', function(){
     //console.log('clicou')
@@ -95,3 +104,4 @@ btnMix.addEventListener('click', function(){
     //Text
     textColor.textContent = colorsMix[randomNumber]
 })
+ 
