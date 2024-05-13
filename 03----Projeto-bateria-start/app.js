@@ -10,7 +10,20 @@ for (let i = 0; i < btns.length; i++) {
        // this.style.color = colorArray[randomColor]
        let buttonInnerHTML = this.innerHTML
 
-       switch (buttonInnerHTML) {
+        makeSounds(buttonInnerHTML)
+        buttonAnimation(buttonInnerHTML)
+    })
+}
+
+document.addEventListener('keydown', function(event){
+    makeSounds(event.key)
+    //alert('okok')
+    buttonAnimation(event.key)
+})
+
+////sounds
+function makeSounds(key){
+    switch (key) {
         case 'w':
             let tom1 = new Audio('./sounds/tom-1.mp3')
             tom1.play()
@@ -43,9 +56,12 @@ for (let i = 0; i < btns.length; i++) {
         default: console.log(buttonInnerHTML)
             break;
        }
-
-    })
 }
-
-/*let audio = new Audio('./sounds/tom-1.mp3')
-audio.play()*/
+////animacao
+function buttonAnimation(currentKey){
+    let activeButton = document.querySelector('.' + currentKey)///.k ou .l
+    activeButton.classList.add('pressed')
+    setTimeout(function(){
+        activeButton.classList.remove('pressed')
+    }, 1000)
+}
