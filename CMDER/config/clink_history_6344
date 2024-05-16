@@ -1,0 +1,5 @@
+cd /C:\Users\henrique\OneDrive\Área de Trabalho\Tipscode\06----REACT
+cd C:\Users\henrique\OneDrive\Área de Trabalho\Tipscode\06----REACT
+npx create-react-app myreact-cra
+nmp start
+npm start
